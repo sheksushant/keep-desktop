@@ -1,0 +1,21 @@
+{
+  "name": "Google_Keep",
+  "version": "0.0.9",
+  "description": "A Cross Platform Google Keep app made with Electron.",
+  "author": "Susahnt Shekhar",
+  "main": "main.js",
+  "build": {
+    "appId": "com.futureblink.keep",
+    "mac": {
+      "category": "awesome_app"
+    }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron-builder": "^19.6.3"
+  },
+  "postinstall": "electron-builder install-app-deps"
+}
