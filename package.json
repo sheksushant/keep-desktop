@@ -1,6 +1,6 @@
 {
   "name": "Keep",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "A Cross Platform Google Keep app made with Electron.",
   "author": "Susahnt Shekhar",
   "main": "main.js",
@@ -15,7 +15,11 @@
     "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron-builder": "^19.6.3"
+    "electron-builder": "^19.19.1"
   },
-  "postinstall": "electron-builder install-app-deps"
+  "postinstall": "electron-builder install-app-deps",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "electron-context-menu": "^0.9.1"
+  }
 }

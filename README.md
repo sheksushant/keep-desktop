@@ -5,7 +5,7 @@
 
 For Building the project.
 1. Clone
-2. yarn Install
+2. yarn install
 3. Build
 
 Electron Project Built using [Electron Builder](https://github.com/electron-userland/electron-builder).
